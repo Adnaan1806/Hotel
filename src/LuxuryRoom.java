@@ -12,7 +12,7 @@ public class LuxuryRoom extends Room{
     }
 
     public void calculateLuxury_Room_Bill(){
-        luxuryRoom_Bill = room_Bill+tax_Amount;
+        luxuryRoom_Bill = room_bill +tax_Amount;
         showDetails();
     }
 
@@ -24,7 +24,7 @@ public class LuxuryRoom extends Room{
         if(c.getCustomer_Type().equals("F")){
             System.out.println("Luxury Room Bill:"+luxuryRoom_Bill);
         } else if(c.getCustomer_Type().equals("L")){
-            System.out.println("Room Bill: "+room_Bill);
+            System.out.println("Room Bill: "+ room_bill);
         }
 
     }
